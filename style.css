@@ -13,15 +13,43 @@ h1 {
     font-size: 500%;
 }
 
-img {
-    left: 1000px;
+#img {
+    float: right;
 }
 
+table {
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+}
 
-
+#contact {
+    font-size: 200%;
+}
 #who {
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     margin-right: 80%;
 }
+
+.hidden {
+    position: absolute;
+    left: 25%;
+    bottom: 500px;
+    display: none;
+}
+.original {
+    position: absolute;
+    left: 40%;
+    bottom: 900px;
+}
+
+.original:hover + .hidden {
+    display: block;
+    color: red;
+    font-size: 600%;
+}
+
+
+
