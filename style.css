@@ -1,1 +1,27 @@
+body {
+    background: linear-gradient(to right, #ffffff 0%, #000000 100%);
+}
 
+#after {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-right: 80%;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+img {
+    left: 1000px;
+}
+
+
+
+#who {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-right: 80%;
+}
